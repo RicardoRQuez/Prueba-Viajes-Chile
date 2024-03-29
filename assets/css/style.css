@@ -1,35 +1,73 @@
+/* Importación de la fuente Roboto Condensed desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Estilo para el body con un fondo negro y fuente Roboto Condensed */
 body#black-background {
   background-color: black;
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
 }
+
+/* Estilo para los contenedores de iconos */
 .iconContainer {
   text-align: center;
-  background-color: rgb(0, 225, 255);
-  color: white;
+  background-color: rgb(0, 225, 255); /* Fondo azul claro */
+  color: white; /* Texto blanco */
 }
+
+/* Estilo para la seccion 1 */
 .parrafos {
-  max-width: 95%;
-  color: white;
+  max-width: 95%; /* Ancho máximo del 95% */
+  color: white; /* Texto blanco */
 }
+
+/* Estilo para la seccion 2 */
 .tarjetas {
-  max-width: 95%;
-  color: white;
+  max-width: 95%; /* Ancho máximo del 95% */
+  color: white; /* Texto blanco */
 }
+
+/* Estilo para la línea horizontal personalizada */
 .custom-hr {
-  width: 90%;
-  height: 1px;
-  background-color: rgb(47, 44, 44);
-  margin: 0 auto;
+  width: 90%; /* Ancho del 90% */
+  height: 1px; /* Altura de 1px */
+  background-color: rgb(47, 44, 44); /* Color de fondo gris oscuro */
+  margin: 0 auto; /* Margen automático horizontal */
 }
+
+/* Estilo para la barra de navegación con fondo negro sólido que se aplica al hacer scroll */
 .navbar-solid {
   background-color: black;
 }
+
+/* Estilo para la sección de contacto */
 .contacto {
-  max-width: 95%;
-  color: white;
+  max-width: 95%; /* Ancho máximo del 95% */
+  color: white; /* Texto blanco */
 }
 
+/* Estilo para el botón de enviar */
 #boton {
-  color: white;
-  background-color: rgb(0, 225, 255);
-  border-radius: 5px;
+  color: white; /* Texto blanco */
+  background-color: rgb(0, 225, 255); /* Fondo azul claro */
+  border-radius: 5px; /* Borde redondeado */
+}
+
+/* Estilo para el pie de página */
+footer {
+  padding-top: 30px; /* Relleno superior de 30px */
+  padding-bottom: 30px; /* Relleno inferior de 30px */
+  background-color: rgb(0, 225, 255); /* Fondo azul claro */
+}
+
+/* Estilo para los iconos en el pie de página */
+footer i {
+  margin-right: 15px; /* Margen derecho de 15px */
+}
+
+/* Estilo para el título en el pie de página */
+footer h2 {
+  color: white; /* Texto blanco */
 }
