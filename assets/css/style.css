@@ -23,3 +23,13 @@ body#black-background {
 .navbar-solid {
   background-color: black;
 }
+.contacto {
+  max-width: 95%;
+  color: white;
+}
+
+#boton {
+  color: white;
+  background-color: rgb(0, 225, 255);
+  border-radius: 5px;
+}
